@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { useDispatch, useSelector } from 'react-redux';
-import { deleteContact } from './redux/Actions';
+import { deleteContact } from '../redux/Actions';
 import { useMemo } from 'react';
 
 const List = styled.li`

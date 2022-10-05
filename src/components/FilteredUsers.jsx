@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { useSelector, useDispatch } from 'react-redux';
-import { filterContacts } from './redux/Actions';
+import { filterContacts } from '../redux/Actions';
 
 
 const Filterbox = styled.div`

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { useDispatch, useSelector } from 'react-redux';
-import { addContact } from './redux/Actions';
+import { addContact } from '../redux/Actions';
 
 const Inputbox = styled.div`
   position: relative;
